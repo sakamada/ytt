@@ -1,0 +1,131 @@
+/* resources/dark_theme.qss */
+QMainWindow, QDialog, QWidget {
+    background-color: #1a1a1a;
+    color: #f0f0f0;
+}
+
+QTabWidget::pane {
+    border: none;
+    background-color: #1a1a1a;
+}
+
+QTabBar::tab {
+    background-color: #2a2a2a;
+    color: #f0f0f0;
+    padding: 8px 15px;
+    border-radius: 0px;
+}
+
+QTabBar::tab:selected {
+    background-color: #3a3a3a;
+    border-bottom: 2px solid #3498db;
+}
+
+QLineEdit {
+    background-color: #2a2a2a;
+    color: #f0f0f0;
+    border: 1px solid #3a3a3a;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+QPushButton {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 8px 15px;
+}
+
+QPushButton:hover {
+    background-color: #2980b9;
+}
+
+QPushButton:pressed {
+    background-color: #1f6aa5;
+}
+
+QPushButton#RedButton {
+    background-color: #e74c3c;
+}
+
+QPushButton#RedButton:hover {
+    background-color: #c0392b;
+}
+
+QPushButton#GreenButton {
+    background-color: #2ecc71;
+}
+
+QPushButton#GreenButton:hover {
+    background-color: #27ae60;
+}
+
+QPushButton#MinButton, QPushButton#MaxButton, QPushButton#CloseButton {
+    background-color: transparent;
+    color: #f0f0f0;
+    border-radius: 0px;
+    padding: 5px;
+}
+
+QPushButton#MinButton:hover, QPushButton#MaxButton:hover {
+    background-color: #3a3a3a;
+}
+
+QPushButton#CloseButton:hover {
+    background-color: #e74c3c;
+}
+
+QFrame {
+    background-color: #2a2a2a;
+    border-radius: 3px;
+}
+
+QListWidget {
+    background-color: #2a2a2a;
+    color: #f0f0f0;
+    border: none;
+    border-radius: 3px;
+}
+
+QSlider::groove:horizontal {
+    height: 5px;
+    background: #3a3a3a;
+    border-radius: 2px;
+}
+
+QSlider::handle:horizontal {
+    background: #3498db;
+    width: 14px;
+    margin: -5px 0;
+    border-radius: 7px;
+}
+
+QSpinBox {
+    background-color: #2a2a2a;
+    color: #f0f0f0;
+    border: 1px solid #3a3a3a;
+    border-radius: 3px;
+    padding: 3px;
+}
+
+QHeaderView::section {
+    background-color: #2a2a2a;
+    color: #f0f0f0;
+    padding: 5px;
+    border: none;
+}
+
+QHeaderView {
+    background-color: #2a2a2a;
+}
+
+QToolButton {
+    background-color: transparent;
+    border: none;
+    padding: 5px;
+}
+
+QToolButton:hover {
+    background-color: #3a3a3a;
+}
